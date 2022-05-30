@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  height: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* TopHead */
+.tophead {
+  background-color: #252f83;
+  min-height: 35px;
+}
+
+.tophead .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.tophead .container .contact {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.tophead .container .contact ul span {
+  font-weight: 200;
+}
+
+.svgphone {
+  height: 18px;
+  width: 18px;
+  color: #ffdd00;
+}
+
+.svgmail {
+  height: 18px;
+  width: 18px;
+  color: #ffdd00;
+}
+
+.svgright {
+  height: 18px;
+  width: 18px;
+  color: #ffdd00;
+}
+
+/* MastHead */
+.masthead .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.masthead .container .brand {
+  width: 75%;
+  padding: 15px 0;
+  display: flex;
+}
+
+.masthead .container .brand img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.masthead .container .brand div {
+  line-height: 1.5;
+}
+
+.masthead .container .search {
+  width: 25%;
+}
