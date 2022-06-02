@@ -180,135 +180,6 @@ h1 {
   list-style-position: inside;
 }
 
-/* Large max-Width */
-@media (max-width: 1024px) {
-  .navbar .container {
-    padding: 6px 35px;
-    font-size: 15px;
-  }
-
-  .navbar .container a img {
-    width: 50px;
-  }
-
-  .navbar .container ul a {
-    margin-left: 1.3rem;
-    font-size: 14px;
-  }
-
-  .banner {
-    height: 400px;
-  }
-
-  .cards .container {
-    padding: 45px 35px;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.5rem;
-  }
-
-  .sam-container {
-    padding: 0 45px 35px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-
-  .pattern .container {
-    padding: 80px 35px;
-  }
-}
-
-/* Medium Min-Width */
-@media (min-width: 768px) {
-  .svgmenu {
-    display: none;
-  }
-}
-
-/* Medium Max-Width */
-@media (max-width: 768px) {
-  .navbar .container {
-    font-size: 15px;
-    padding: 5px 20px;
-  }
-
-  .svgmenu {
-    display: flex;
-    width: 25px;
-    height: 25px;
-    color: white;
-    cursor: pointer;
-  }
-
-  .navbar .container ul {
-    display: none;
-  }
-
-  .navbar .container ul a {
-    font-size: 12px;
-  }
-
-  .banner {
-    height: 300px;
-  }
-
-  .cards .container {
-    padding: 40px 20px;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 1.5rem;
-  }
-
-  .sam-container {
-    padding: 0 40px 20px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sam-text {
-    width: 100%;
-    line-height: 1.75;
-  }
-
-  .sam-img {
-    width: 100%;
-  }
-
-  .sam-img img {
-    margin-top: 20px;
-    border: 8px solid #2f48a4;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .pattern .container {
-    padding: 60px 20px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2.5rem;
-  }
-}
-
-/* Small max-Width */
-@media (max-width: 640px) {
-  .navbar .container {
-    padding: 5px 15px;
-  }
-
-  .banner {
-    height: 250px;
-  }
-
-  .cards .container {
-    padding: 35px 15px;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 1.5rem;
-  }
-}
-
 .data-artikel .container {
   max-width: 1140px;
   margin: auto;
@@ -331,7 +202,7 @@ h1 {
 
 .data-pengajar .grids .grid {
   border-top: 2px solid #7b7d7f;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  box-shadow: -3px 10px 15px 3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   text-align: center;
 }
 
@@ -340,7 +211,7 @@ h1 {
 }
 
 .data-pengajar .grids .grid div {
-  padding: 10px 0;
+  padding: 10px 2px;
 }
 
 .data-pengajar .grids .grid div h4 {
@@ -568,4 +439,232 @@ h1 {
   color: white;
   padding: 2px 0;
   background-color: #152c7d;
+}
+
+/* Large max-Width */
+@media (max-width: 1024px) {
+  .navbar .container {
+    padding: 6px 35px;
+    font-size: 15px;
+  }
+
+  .navbar .container a img {
+    width: 50px;
+  }
+
+  .navbar .container ul a {
+    margin-left: 1.3rem;
+    font-size: 14px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .cards .container {
+    padding: 45px 35px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .sam-container {
+    padding: 0 45px 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .pattern .container {
+    padding: 80px 35px;
+  }
+
+  .data-artikel .container {
+    padding: 45px 35px;
+  }
+
+  .container-data {
+    padding: 120px 35px;
+    gap: 2rem;
+  }
+
+  .ekstrakulikuler .container {
+    padding: 50px 35px;
+  }
+
+  .galeri .container {
+    padding: 25px 35px;
+  }
+
+  /* .foot .container {
+    padding: 100px 35px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  } */
+}
+
+/* Medium Min-Width */
+@media (min-width: 768px) {
+  .svgmenu {
+    display: none;
+  }
+}
+
+/* Medium Max-Width */
+@media (max-width: 768px) {
+  .navbar .container {
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+
+  .svgmenu {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .navbar .container ul {
+    display: none;
+  }
+
+  .navbar .container ul a {
+    font-size: 12px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .cards .container {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .sam-container {
+    padding: 0 40px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sam-text {
+    width: 100%;
+    line-height: 1.75;
+  }
+
+  .sam-img {
+    width: 100%;
+  }
+
+  .sam-img img {
+    margin-top: 20px;
+    border: 8px solid #2f48a4;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .pattern .container {
+    padding: 60px 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .data-artikel .container {
+    padding: 40px 20px;
+  }
+
+  .data-pengajar h1 {
+    font-size: 38px;
+  }
+
+  .data-pengajar .grids {
+    margin-top: 12px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .data-pengajar .grids .grid {
+    font-size: 14px;
+  }
+
+  .artikel-sekolah h1 {
+    margin-top: 25px;
+    font-size: 38px;
+  }
+
+  .artikel-sekolah .grids {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .container-data {
+    padding: 100px 20;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .ekstrakulikuler .container {
+    padding: 50px 20px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .galeri .container {
+    padding: 25px 20px;
+  }
+
+  .galeri .container .grids {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .galeri .container .grids .grid img {
+    height: 160px;
+  }
+
+  /* .foot .container img {
+    width: 55%;
+    margin-right: auto;
+  } */
+}
+
+/* Small max-Width */
+@media (max-width: 640px) {
+  .navbar .container {
+    padding: 5px 15px;
+  }
+
+  .banner {
+    height: 250px;
+  }
+
+  .cards .container {
+    padding: 35px 15px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .data-artikel .container {
+    padding: 35px 15px;
+  }
+
+  .container-data {
+    padding: 100px 25px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .ekstrakulikuler .container {
+    padding: 50px 25px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .galeri .container {
+    padding: 25px 25px;
+  }
 }
